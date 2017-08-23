@@ -9,6 +9,7 @@
 <script>
 	function initMap() {
 		var map = new google.maps.Map(document.getElementById('map'),{
+				
 				"center" : {
 					"lat" : 37.498014,
 					"lng" : 127.027400
@@ -17,6 +18,8 @@
 			}
 		);
 	}
+	
+	
 </script>
 <script 
  	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCdqBrN9xNVs1cJNir6Zi4MyaPyu7hZL14&callback=initMap"
