@@ -11,6 +11,7 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
+	<!-- http를 https로 바꾸기. -->
 	<security-constraint>
 		<web-resource-collection>
 			<web-resource-name>Automatic SSL Forward</web-resource-name>
