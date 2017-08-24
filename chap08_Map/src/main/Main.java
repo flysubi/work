@@ -5,4 +5,9 @@ public class Main {
 		System.out.println("Hello World!!");
 
 	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
 }
